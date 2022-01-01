@@ -65,9 +65,6 @@ body{
     margin: 7px;
     transform: scale(1.5);
 }
-.tarefa-item input:checked{
-    background-color: red;
-}
 
 .botoes-item{
     display: flex;
@@ -76,12 +73,18 @@ body{
 .tarefa-item button{
     padding: 2px 4px 2px 4px;
     margin: 2px;
-    background-color: rgb(255, 55, 55);
+    background-color: rgb(255, 68, 68);
     border: none;
     color: white;
     border-radius: 3px;
 }
 
+.tarefa-item button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 26, 26);
+}
+
 .texto-desativado{
     color: rgba(0, 0, 0, 0.664);
+    text-decoration: line-through;
 }
