@@ -14,9 +14,13 @@ body{
 }
 
 #inserir{
-    padding: 20px;
+    padding: 10px;
 }
-.adicionar{
+#inserir button{
+    margin-top: 10px;
+}
+
+#adicionar{
     color: white;
     background-color: #12a72b;
     text-transform: uppercase;
@@ -28,14 +32,14 @@ body{
     margin: 5px;
 }
 
-.adicionar:hover{
+#adicionar:hover{
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: #05911c;
 
 }
 
-.entrada-texto{
+#entrada-texto{
     padding: 10px;
     border-radius: 4px;
     border: none;
@@ -63,6 +67,10 @@ body{
 }
 .tarefa-item input:checked{
     background-color: red;
+}
+
+.botoes-item{
+    display: flex;
 }
 
 .tarefa-item button{
