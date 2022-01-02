@@ -12,7 +12,7 @@ if (true){
     // ATRIBUINDO VALORES AS VARIAVEIS DO TIPO VAR
     // VAIRAVEIS PERMITEM ALTERACAO POIS POSSUEM ESCOPO GLOBAL
     a = 1
-    b = 2
+    // b = 2 não atribuido pois trara "b" para o bloco(escopo) e let nao permite redeclaracao
     // MUDANDO VALOR DA CONSTANTE
     // c = 1 NÃO PERMITIDO!!!
     // ATRIBUINDO VALOR A VARIAVEL DO TIPO LET  
@@ -32,3 +32,6 @@ console.log('Valor de a fora do if: ', a) // 11
 console.log('Valor de b fora do if: ', b) // 2
 console.log('Valor de c fora do if: ', c) // 33
 console.log('Valor de d fora do if: ', d) // 44
+
+console.log(1.0 == '1.0') // true - compara valores
+console.log(1.0 === '1.0') // false - compara tipos e valores
