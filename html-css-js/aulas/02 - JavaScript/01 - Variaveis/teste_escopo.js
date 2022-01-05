@@ -35,3 +35,26 @@ console.log('Valor de d fora do if: ', d) // 44
 
 console.log(1.0 == '1.0') // true - compara valores
 console.log(1.0 === '1.0') // false - compara tipos e valores
+
+teste()
+function teste(){
+    var a = 1
+}
+
+console.log(a) // nao definido
+
+var foraVar = 'foraVar'
+let foraLet = 'foraLet'
+
+if(true){
+    var dentroVar = 'dentroVar'
+    let foraLet = 'foraLet'
+}
+
+console.log('Mostrando VAR fora e dentro, respectivamente')
+console.log(foraVar)
+console.log(dentroVar)
+console.log('Mostrando LET fora e dentro, respectivamente')
+console.log(foraLet)
+// console.log(dentroLet)  ERRO: Uncaught ReferenceError: dentroLet is not defined. 
+// let se manteve dentro do escopo do if em que foi declarado
