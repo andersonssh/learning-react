@@ -11,3 +11,6 @@ console.log(a('teste p1', 'teste p2'))
 
 a = p1 => `func:${p1}`
 console.log(a('teste de parametro 1 sem parenteses'))
+
+// funcoes comuns fazem hoisting. arrow functions nao!
+// hoisting: chamar a funcao antes de ser declarada
