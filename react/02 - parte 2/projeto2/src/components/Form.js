@@ -11,7 +11,7 @@ function Form(){
     const [name, setName] = useState('Nome padrao')
     const [password, setPassword] = useState()
 
-    return (  
+    return (
         <div>
             <h1>Cadastro</h1>
             <form action="" onSubmit={cadastrarUsuario}>
