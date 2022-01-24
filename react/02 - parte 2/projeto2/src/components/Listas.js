@@ -20,6 +20,7 @@ function Listas({itens, lista}){
                     <p>{item.nome} tem {item.idade} anos.</p>
                     
                 ))
+                
             }
         </>
     )

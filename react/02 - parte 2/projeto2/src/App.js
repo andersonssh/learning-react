@@ -4,6 +4,7 @@ import Evento from './components/Evento';
 import Form from './components/Form'
 import Condicional from './components/Condicional';
 import Listas from './components/Listas';
+import NomeCompleto from './components/NomeCompleto';
 
 function App() {
   const x = [{
@@ -33,7 +34,8 @@ function App() {
      <h1>renderizacao de listas</h1>
      <Listas itens={y} lista={x}/>
      <Listas itens={[]} lista={x}/>
-     
+     <h1>STATE LIFT</h1>
+     <NomeCompleto />
    </div>
   );
 }
