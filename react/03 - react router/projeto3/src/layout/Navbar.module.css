@@ -1,0 +1,23 @@
+.navbar{
+    padding: 20px;
+    display: flex;
+    color : red;
+    text-align: center;
+    
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background: orange;
+    list-style: none;
+}
+.linkReact{
+    text-decoration: none;
+}
+
+.item:hover{
+    background: black;
+    color: white;
+}
